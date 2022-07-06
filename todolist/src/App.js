@@ -1,0 +1,13 @@
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Form from "./Components/Form";
+function App() {
+  return (
+    <div className="App">
+      <div></div>
+     <h1 className="text-center mt-3">Todo-list</h1>
+     <Form />
+    </div>
+  );
+}
+
+export default App;
